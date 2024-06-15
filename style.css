@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #3c4156;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.Rectangle{
+    padding: 20px;
+    background-color: #21222e;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 350px;
+    height: 400px;
+}
+p{
+    font-size: 70px;
+    color: #b0416a;;
+    margin-bottom: 20px;
+}
+.btns{
+    margin-left: 5px;
+    width: 70%;
+}
+button{
+    margin: 15px;
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+.btns button:hover {
+    background-color: transparent;
+    border: 1px solid yellow;
+    color: white;
+}
+
+#record p{
+    font-size: 20px;
+    align-self: center;
+}
+
+#record {
+    margin-left: 10px;
+    color: white;
+    height: 150px;
+    overflow-y: scroll;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* WebKit Scroll Bar */
+#record::-webkit-scrollbar {
+    width: 8px;
+}
+
+#record::-webkit-scrollbar-track {
+    background: #21222e; /* Background of the track */
+    border-radius: 10px;
+}
+
+#record::-webkit-scrollbar-thumb {
+    background: #904e66; /* Scroll thumb color */
+    border-radius: 10px;
+}
+
+#record::-webkit-scrollbar-thumb:hover {
+    background: #a56b7a; /* Scroll thumb color on hover */
+}
+
+/* Firefox Scroll Bar */
+#record {
+    scrollbar-width: thin;
+    scrollbar-color: #904e66 #21222e;
+}
