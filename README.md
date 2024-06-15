@@ -39,6 +39,3 @@ TimeKeeper is a simple web-based stopwatch application that includes start, stop
 2. Open `index.html` in your web browser.
 3. Interact with the stopwatch using the buttons provided.
 
-## License
-
-This project is open-source and available under the MIT License.
